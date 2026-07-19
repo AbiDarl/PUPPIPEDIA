@@ -1,221 +1,204 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>PUPPIPEDIA</title>
+        <meta name="description" content="PUPPIPEDIA is a fun, story-driven dog encyclopedia — explore breed facts, puppy care tips, and connect with a certified vet online.">
         <link rel="icon" href="titke.jpg">
+        <link rel="stylesheet" href="style.css">
     </head>
-    <body bgcolor="#1C110A" style="color: cornsilk">
-        <center>
-            <h1>PUPPIPEDIA</h1>
-            <h4>Where every wag, bark, and paw print has a story</h4>
-        </center>
+    <body>
+        <section class="title-website">
+        <div class="title-text">
+        <h1 class="title">PUPPIPEDIA</h1>
+        <h4 class="subtitle">Where every wag, bark, and paw print has a story</h4>
+        </div>    
+        </section>
         <hr>
-        <br>
-        <table>
-            <tr>
-                <td><img src="HERO IMAGE.webp" alt="A puppy on grass" width="600" height="400"></td>
-                <td width="40"></td>
-                <td>
-                    <center><h1>"🐕 Dogs"</h1></center>
-                    <p>The word dog is actually one of the great mysteries of the English language. It appeared suddenly in Old English around the year 1050 as dogge — and linguists still have no idea where it came from. No Latin root, no Greek ancestor, no Germanic cousin. It simply showed up and over the next few centuries completely replaced the older word hund (which survives today as "hound").
-What makes it even more fascinating — the English word dog then spread to other languages. French got dogue, German got Dogge, and Danish got dogge, all borrowed from English. A word with unknown origins ended up traveling the world.</p>
-                </td>
-            </tr>
-        </table>
-        <br>
+
+        <section class="hero">
+            <div class="hero-image-wrap">
+                <img src="HERO-IMAGE.webp" alt="A puppy on grass" class="hero-img">
+            </div>
+            <div class="hero-text">
+                <h1 class="hero-title">"🐕 Dogs"</h1>
+                <p class="hero-para">The word dog is actually one of the great mysteries of the English language. It appeared suddenly in Old English around the year 1050 as dogge — and linguists still have no idea where it came from. No Latin root, no Greek ancestor, no Germanic cousin. It simply showed up and over the next few centuries completely replaced the older word hund (which survives today as "hound").
+                What makes it even more fascinating — the English word dog then spread to other languages. French got dogue, German got Dogge, and Danish got dogge, all borrowed from English. A word with unknown origins ended up traveling the world.</p>
+            </div>
+        </section>
+
         <hr>
-        <center><h1>Fun Facts about Dogs 🐕</h1></center>
-        <table border="1">
-            <tr>
-                <td width="900">
+        <section class="fun-facts">
+        <h1 class="section-title">Fun Facts about Dogs 🐕</h1>
+
+        <div class="container">
+            <article class="card">
+                <img src="nose-print.webp" alt="Dog's noseprint">
+                <div class="card-content">
                     <h3>A dog's nose print is as unique as a human fingerprint.</h3>
                     <ul>
                         <li>No two dogs have the same pattern.</li>
                         <li>Just like humans use fingerprints for identification, some kennel clubs actually use nose prints to identify and register dogs.</li>
                         <li>A dog's nose has up to 300 million scent receptors, compared to just 6 million in humans — making their sense of smell 50 times more powerful.</li>
                     </ul>
-                </td>
-                <td width="10"></td>
-                <td><img src="nose print.webp" alt="Dog's noseprint" width="600" height="300"></td>
-            </tr>
-        </table>
-        <table border="1">
-            <tr>
-                <td><img src="basenji.jpg" alt="basenji dog" width="600" height="300"></td>
-                <td width="10"></td>
-                <td width="900">
+                </div>
+            </article>
+
+            <article class="card reverse">
+                <img src="basenji.jpg" alt="basenji dog">
+                <div class="card-content">
                     <h3>The Basenji is the only dog breed that cannot bark — it yodels instead.</h3>
                     <ul>
                         <li>This unique sound is called a "baroo" — a mix between a yodel and a chortle.</li>
                         <li>Basenjis originate from Central Africa where hunters used them for tracking game in dense forests.</li>
                         <li>Their unusually shaped larynx is what makes the bark physically impossible for them.</li>
                     </ul>
-                </td>
-            </tr>
-        </table>
-        <table border="1">
-            <tr>
-                <td width="900">
+                </div>
+            </article>
+
+            <article class="card">
+                <img src="dalmatian.jpg" alt="dalmatian dog">
+                <div class="card-content">
                     <h3>Dalmatian puppies are born completely white. Their spots develop over time.</h3>
                     <ul>
                         <li>Their spots begin appearing within the first three to four weeks after birth and continue developing for several months.</li>
                         <li>No two Dalmatians have the same spot pattern — just like a fingerprint, every coat is completely unique.</li>
                         <li>The spots are actually in the skin, not just the fur — if you shaved a Dalmatian, the spots would still be visible.</li>
                     </ul>
-                </td>
-                <td width="10"></td>
-                <td><img src="dalmatian.jpg" alt="dalmatian dog" width="600" height="300"></td>
-            </tr>
-        </table>
-        <table border="1">
-            <tr>
-                <td><img src="wolfhound.webp" alt="wolfhound dog" width="600" height="300"></td>
-                <td width="10"></td>
-                <td width="900">
+                </div>
+            </article>
+
+            <article class="card reverse">
+                <img src="wolfhound.webp" alt="wolfhound dog">
+                <div class="card-content">
                     <h3>The tallest dog breed in the world is the Irish Wolfhound.</h3>
                     <ul>
                         <li>An Irish Wolfhound can stand up to 7 feet tall when on its hind legs — taller than most humans.</li>
                         <li>Despite their massive size they are known as gentle giants, famous for their calm and friendly temperament.</li>
                         <li>They were originally bred in Ireland to hunt wolves and elk, and were considered so valuable that they were gifted to kings and nobles.</li>
                     </ul>
-                </td>
-            </tr>
-        </table>
-        <table border="1">
-            <tr>
-                <td width="900">
+                </div>
+            </article>
+
+            <article class="card">
+                <img src="pomeranian.webp" alt="pomeranian dog">
+                <div class="card-content">
                     <h3>Pomeranians were once much bigger than they are today.</h3>
                     <ul>
                         <li>They originally descended from large sled-pulling dogs in the Arctic region of Pomerania, which is now modern day Poland and Germany.</li>
                         <li>Queen Victoria of England is credited for popularising the smaller sized Pomeranian after she fell in love with a tiny one during a trip to Italy in 1888.</li>
                         <li>Over generations of selective breeding the breed shrank from around 30 pounds down to the tiny 4 to 7 pound lap dog we know today.</li>
                     </ul>
-                </td>
-                <td width="10"></td>
-                <td><img src="pomeranian.webp" alt="pomeranian dog" width="600" height="300"></td>
-            </tr>
-        </table>
-        <table border="1">
-            <tr>
-                <td><img src="siberian husky.webp" alt="husky dog" width="600" height="300"></td>
-                <td width="10"></td>
-                <td width="900">
+                </div>
+            </article>
+
+            <article class="card reverse">
+                <img src="siberian-husky.webp" alt="husky dog">
+                <div class="card-content">
                     <h3>Siberian Huskies were bred to run up to 100 miles a day in freezing Arctic conditions.</h3>
                     <ul>
                         <li>They were originally developed by the Chukchi people of Siberia thousands of years ago as sled dogs and family companions who slept with children to keep them warm at night.</li>
                         <li>Huskies have a double layered coat that can protect them in temperatures as low as minus 60 degrees Celsius — the outer layer repels snow and ice while the inner layer insulates body heat.</li>
                         <li>Their iconic blue eyes are one of the rarest eye colors in the dog world and are caused by a unique genetic mutation found almost exclusively in Huskies and a few other Arctic breeds.</li>
                     </ul>
-                </td>
-            </tr>
-        </table>
-        <table border="1">
-            <tr>
-                <td width="900">
+                </div>
+            </article>
+
+            <article class="card">
+                <img src="beagel.jpg" alt="beagel dog">
+                <div class="card-content">
                     <h3>Beagles have one of the most powerful noses in the entire dog world.</h3>
                     <ul>
                         <li>Their long droopy ears actually serve a purpose — they help funnel scent particles up toward the nose while the Beagle is tracking a trail.</li>
                         <li>Beagles have around 220 million scent receptors making them one of the top choices for airport security and customs detection work worldwide.</li>
                         <li>The name Beagle is believed to come from the French word beugler meaning to loudly bellow — which anyone who owns one will tell you is very accurate.</li>
                     </ul>
-                </td>
-                <td width="10"></td>
-                <td><img src="beagel.jpg" alt="beagel dog" width="600" height="300"></td>
-            </tr>
-        </table>
-    <br>
-    <hr>
-    <br>
-    <center>
-        <h1>Who do you think is more Friendly?</h1>
-        <p>Oops! You have to choose only one 😄</p>
-    </center>
-    <center>
-    <table>
-        <tr>
-            <td>
-                <input type="radio" name="breed"><img src="golden retriever.webp" alt="golden retriever" width="250" height="300">
-            </td>
-            <td>
-                <input type="radio" name="breed"><img src="siberian husky.webp" alt="husky dog" width="250" height="300">
-            </td>
-            <td>
-                <input type="radio" name="breed"><img src="German shepherd.webp" alt="german shepherd" width="250" height="300">
-            </td>
-            <td>
-                <input type="radio" name="breed"><img src="pomeranian.webp" alt="pomeranian" width="250" height="300">
-            </td>
-            <td>
-                <input type="radio" name="breed"><img src="beagel.jpg" alt="beagel" width="250" height="300">
-            </td>
-        </tr>
-    </table>
-    </center>
-    <br>
-    <hr>
-    <br>
-    <center>
-    <h1>Care that matches their Love</h1>
-    <h4>Small paws, big responsibility — and every bit of it is worth it.</h4>
-    </center>
-    <p>A puppy is not just a pet — it is a living being that depends entirely on you from the moment it enters your home. The way you feed, train, and nurture them in their early months shapes their health, behaviour, and personality for the rest of their life. Regular vet visits catch problems before they become serious. A balanced diet keeps their coat shiny and their energy steady. Daily walks and playtime are not just fun — they are essential for both their physical health and mental wellbeing. And more than anything, the time and love you give them builds a bond that a dog never forgets. Taking care of a pup is a responsibility, yes — but it is also one of the most rewarding things you will ever do.</p>
-    <center>
-    <a href="https://www.youtube.com/watch?v=peUVLEUj-AM" target="_blank"><button>Watch How to take good care of your puppies</button></a>
-    </center>
-    <br>
-    <hr>
-    <br>
-    <center>
-    <h1>Your Pup Deserves the Best Care</h1>
-    <p>Fill out the form below and connect with a certified vet online — quick, easy, and free</p>
-    <form>
-    <table>
-        <tr>
-            <td>Name of the Pup:</td><td><input type="text" placeholder="Enter your pup name"></td>
-        </tr>
-        <tr>
-            <td>Name of the Owner:</td><td><input type="text" placeholder="Enter your name"></td>
-        </tr>
-        <tr>
-            <td>Age of the Pup:</td><td><input type="number" placeholder="Select your pup age"></td>
-        </tr>
-        <tr>
-            <td>Gender of the Pup:</td><td><input type="radio" name="gender">Boy<input type="radio" name="gender">Girl</td>
-        </tr>
-        <tr>
-            <td>Select the Breed:</td><td>
-                                         <select>
-                                            <option>Golden retriever</option>
-                                            <option>pomeranian</option>
-                                            <option>Siberian Husky</option>
-                                            <option>German Shepherd</option>
-                                            <option>Beagle</option>
-                                            <option>Dalmatian</option>
-                                         </select>
-                                     </td>
-        </tr>
-        <tr>
-            <td>Location:</td><td><input type="text" placeholder="Where are you from?"></td>
-        </tr>
-        <tr>
-            <td>Upload the Pup Photo</td><td><input type="file"></td>
-        </tr>
-    </table>
-    <br>
-    <table>
-        <tr>
-            <td></td><td><input type="submit"></td>
-        </tr>
-    </table>
-    </form>
-    <br>
-    <table>
-        <tr>
-            <td><h2>For More Details:</h2></td>
-            <td width="20"></td>
-            <td><a href="https://drpetonline.in">Click Here</a></td>
-        </tr>
-    </table>
-    </center>
+                </div>
+            </article>
+        </div>
+        </section>
+
+        <hr>
+        <section class="friendly">
+        <h1 class="section-title">Who do you think is more Friendly?</h1>
+        <p class="section-sub">Oops! You have to choose only one 😄</p>
+
+        <div class="friendly-container">
+            <label class="friendly-card"><input type="radio" name="breed"><img src="golden-retriever.webp" alt="golden retriever"></label>
+            <label class="friendly-card"><input type="radio" name="breed"><img src="siberian-husky.webp" alt="husky dog"></label>
+            <label class="friendly-card"><input type="radio" name="breed"><img src="German-shepherd.webp" alt="german shepherd"></label>
+            <label class="friendly-card"><input type="radio" name="breed"><img src="pomeranian.webp" alt="pomeranian"></label>
+            <label class="friendly-card"><input type="radio" name="breed"><img src="beagel.jpg" alt="beagel"></label>
+        </div>
+        </section>
+        <hr>
+
+        <section class="care">
+        <h1 class="section-title">Care that matches their Love</h1>
+        <h4 class="section-subtitle">Small paws, big responsibility — and every bit of it is worth it.</h4>
+        <p class="section-para">A puppy is not just a pet — it is a living being that depends entirely on you from the moment it enters your home. The way you feed, train, and nurture them in their early months shapes their health, behaviour, and personality for the rest of their life. Regular vet visits catch problems before they become serious. A balanced diet keeps their coat shiny and their energy steady. Daily walks and playtime are not just fun — they are essential for both their physical health and mental wellbeing. And more than anything, the time and love you give them builds a bond that a dog never forgets. Taking care of a pup is a responsibility, yes — but it is also one of the most rewarding things you will ever do.</p>
+
+        <div class="btn-wrap">
+            <a href="https://www.youtube.com/watch?v=peUVLEUj-AM" target="_blank"><button class="btn">Watch How to take good care of your puppies</button></a>
+        </div>
+        </section>
+
+        <hr>
+    
+        <section class="form">
+        <h1 class="section-title">Your Pup Deserves the Best Care</h1>
+        <p class="section-sub">Fill out the form below and connect with a certified vet online — quick, easy, and free</p>
+
+        <form class="booking-form">
+            <div class="form-group">
+                <label>Name of the Pup:</label>
+                <input type="text" placeholder="Enter your pup name">
+            </div>
+            <div class="form-group">
+                <label>Name of the Owner:</label>
+                <input type="text" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+                <label>Age of the Pup:</label>
+                <input type="number" placeholder="Select your pup age">
+            </div>
+            <div class="form-group">
+                <label>Gender of the Pup:</label>
+                <div class="radio-group">
+                    <label><input type="radio" name="gender"> Boy</label>
+                    <label><input type="radio" name="gender"> Girl</label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label>Select the Breed:</label>
+                <select>
+                    <option>Golden retriever</option>
+                    <option>Pomeranian</option>
+                    <option>Siberian Husky</option>
+                    <option>German Shepherd</option>
+                    <option>Beagle</option>
+                    <option>Dalmatian</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label>Location:</label>
+                <input type="text" placeholder="Where are you from?">
+            </div>
+            <div class="form-group">
+                <label>Upload the Pup Photo</label>
+                <input type="file">
+            </div>
+
+            <div class="submit-wrap">
+                <input type="submit" class="btn" value="Submit">
+            </div>
+        </form>
+
+        <div class="more-details">
+            <h2>For More Details:</h2>
+            <a href="https://drpetonline.in" class="details-link">Click Here</a>
+        </div>
+        </section>
     </body>
 </html>
